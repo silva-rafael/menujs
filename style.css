@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.botao-menu{
+    width:30px;
+    height: 30px;
+    background-color: black;
+    position: fixed;
+    top:0px;
+    right:5px;
+    z-index: 10;
+    cursor: pointer;
+}
+.linha{
+    width:30px;
+    height:2px;
+    background-color: #fff;
+    margin: 6px 0px;
+}
+.menu{
+    background-color:aqua;
+    float: right;
+    width: 200px;
+    height: 400px;
+    padding: 10px;
+    transition-duration: 1s;
+}
+ul{
+    list-style: none;
+}
+li{
+    background-color: rgb(105, 240, 245);
+    margin: 3px 0px;
+} 
+
+a{
+    font-size: 18px;
+    color: #444;
+    text-decoration: none;
+}
+
+.esconde-menu{
+    transform: translateX(200px);
+}
